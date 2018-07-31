@@ -4,7 +4,26 @@ module.exports = {
     1: {
       name: 'Genoa CFC',
       founded: 1893,
-      region: 'Liguria'
+      region: 'Liguria',
+      kit: {
+        1893: {
+          type: 'full',
+          color1: 'white',
+          shorts: 'black'
+        },
+        1899: {
+          type: 'vertical',
+          color1: 'white',
+          color2: 'blue',
+          shorts: 'black'
+        },
+        1901: {
+          type: 'quarter',
+          color1: 'red',
+          color2: 'blue',
+          shorts: 'blue'
+        }
+      }
     },
     2: {
       name: 'Internazionale Torino',
@@ -13,91 +32,328 @@ module.exports = {
         year: 1900,
         join_id: 3
       },
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        type: 'vertical',
+        color1: 'white',
+        color2: 'black',
+        shorts: 'white'
+      }
     },
     3: {
       name: 'FC Torinese',
       founded: 1894,
       dissolved: 1906,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        type: 'vertical',
+        color1: 'yellow',
+        color2: 'black',
+        shorts: 'black'
+      }
     },
     4: {
       name: 'Ginnastica Torino',
       founded: 1897,
       dissolved: 1906,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        type: 'horizontalstrip',
+        color1: 'blue',
+        color2: 'red',
+        shorts: 'blue'
+      }
     },
     5: {
       name: 'Liguria FC',
       founded: 1897,
       dissolved: 1914,
-      region: 'Liguria'
+      region: 'Liguria',
+      kit: {
+        type: 'vertical',
+        color1: 'white',
+        color2: 'green',
+        shorts: 'black'
+      }
     },
     6: {
       name: 'Juventus FC',
       founded: 1897,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        1897: {
+          type: 'full',
+          color1: 'white',
+          shorts: 'black'
+        },
+        1899: {
+          type: 'full',
+          color1: 'pink',
+          shorts: 'black'
+        },        
+        1903: {
+          type: 'vertical',
+          color1: 'white',
+          color2: 'black',
+          shorts: 'black'
+        }
+      }
     },
     7: {
       name: 'AC Milan',
       founded: 1899,
-      region: 'Lombardia'
+      region: 'Lombardia',
+      kit: {
+        type: 'vertical',
+        color1: 'red',
+        color2: 'black',
+        shorts: 'white'
+      }
     },
     8: {
       name: 'Sampierdarenese',
       founded: 1899,
       dissolved: 1946,
-      region: 'Liguria'
+      region: 'Liguria',
+      kit: {
+        type: 'horizontalstrip2',
+        color1: 'white',
+        color2: 'red',
+        color3: 'black',
+        shorts: 'black'
+      }
     },
     9: {
       name: 'SG Andrea Doria',
       founded: 1900,
       dissolved: 1946,
-      region: 'Liguria'
+      region: 'Liguria',
+      kit: {
+        type: 'quarter',
+        color1: 'white',
+        color2: 'blue',
+        shorts: 'blue'
+      }
     }
     10: {
       name: 'SEF Mediolanum',
       founded: 1898,
       dissolved: 1904,
-      region: 'Lombardia'
+      region: 'Lombardia',
+      kit: {
+        type: 'horizontalstriped',
+        color1: 'white',
+        color2: 'black',
+        shorts: 'white'
+      }
     },
     11: {
       name: 'Audace Torino',
       founded: 1902,
       dissolved: 1905,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        type: 'vertical',
+        color1: 'white',
+        color2: 'black',
+        shorts: 'white'
+      }
     },
     12: {
       name: 'US Milanese',
       founded: 1902,
       dissolved: 1928,
-      region: 'Lombardia'
+      region: 'Lombardia',
+      kit: {
+        type: 'checkered',
+        color1: 'white',
+        color2: 'black',
+        shorts: 'black'
+      }
     },
     13: {
       name: 'Torino FC',
       founded: 1906,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        1906: {
+          type: 'vertical',
+          color1: 'orange',
+          color2: 'black',
+          shorts: 'black'
+        },
+        1907: {
+          type: 'full',
+          color1: 'darkred',
+          shorts: 'darkred'
+        },
+        1911: {
+          type: 'full',
+          color1: 'darkred',
+          shorts: 'white'
+        }
+      }
     },
     14: {
       name: 'FC Pro Vercelli',
       founded: 1903,
-      region: 'Piemonte'
+      region: 'Piemonte',
+      kit: {
+        type: 'full',
+        color1: 'white',
+        shorts: 'black'
+      }
     },
     15: {
       name: 'FC Internazionale Milano',
       founded: 1908,
-      region: 'Lombardia'
+      region: 'Lombardia',
+      kit: {
+        type: 'vertical',
+        color1: 'black',
+        color2: 'blue',
+        shorts: 'black'
+      }
     },
     16: {
       name: 'Venezia FC',
       founded: 1907,
-      region: 'Veneto'
+      region: 'Veneto',
+      kit: {
+        1907: {
+          type: 'quarter',
+          color1: 'red',
+          color2: 'blue',
+          shorts: 'white'
+        },
+        1909: {
+          type: 'vertical',
+          color1: 'black',
+          color2: 'green',
+          shorts: 'black'
+        }
+      }
     },
     17: {
       name: 'Ausonia FC',
       founded: 1905,
       dissolved: 1912,
-      region: 'Lombardia'
+      region: 'Lombardia',
+      kit: {
+        type: 'quarter',
+        color1: 'red',
+        color2: 'black',
+        shorts: 'black'
+      }
+    },
+    18: {
+      name: 'Sempione',
+      founded: 1902,
+      dissolved: 1905,
+      region: 'Lombardia',
+      kit: {
+        type: 'quarter',
+        color1: 'white',
+        color2: 'black',
+        shorts: 'black'
+      }
+    },
+    19: {
+      name: 'Virtus Juventusque',
+      founded: 1905,
+      dissolved: 1915,
+      region: 'Toscana',
+      kit: {
+        type: 'vertical',
+        color1: 'white',
+        color2: 'blue',
+        shorts: 'white'
+      }
+    },
+    20: {
+      name: 'FC Bergamo',
+      founded: 1904,
+      dissolved: 1911,
+      region: 'Lombardia',
+      kit: {
+        type: 'full',
+        color1: 'white',
+        shorts: 'white'
+      }
+    },
+    21: {
+      name: 'Virtus Torino',
+      founded: 1906,
+      dissolved: 1908,
+      region: 'Piemonte',
+      kit: {
+        type: 'full',
+        color1: 'red',
+        shorts: 'white'
+      }
+    }
+  },
+  players: {
+    1: {
+      name: 'James',
+      surname: 'Spensley',
+      country: 'ENG',
+      retired: 1906,
+      role: ['gk', 'd'],
+      charisma: 10,
+      power: 6,
+      career: {
+        1898: 1
+      }
+    },
+    2: {
+      name: 'Norman Victor',
+      surname: 'Leaver',
+      country: 'ENG',
+      retired: 1900,
+      role: ['m', 'a'],
+      charisma: 8,
+      power: 8,
+      career: {
+        1898: 1
+      }
+    },
+    3: {
+      name: 'Joseph William',
+      surname: 'Agar',
+      country: 'ENG',
+      retired: 1906,
+      role: ['a'],
+      charisma: 6,
+      power: 9,
+      career: {
+        1899: 1
+      }
+    },
+    4: {
+      name: 'Edoardo',
+      surname: 'Bosio',
+      country: 'ITA',
+      retired: 1903,
+      role: ['d', 'c'],
+      charisma: 10,
+      power: 8,
+      career: {
+        1891: 2,
+        1900: 3
+      }
+    },
+    5: {
+      name: 'Henry',
+      surname: 'Dapples',
+      country: 'SVI',
+      retired: 194,
+      role: ['a'],
+      charisma: 9,
+      power: 9,
+      career: {
+        1898: 1
+      }
     }
   },
   participants: {
@@ -107,10 +363,22 @@ module.exports = {
     1901: [1, 4, 6, 7],
     1902: [1, 9, 7, 10, 11, 3, 4, 6],
     1903: [1, 9, 7, 11, 3, 6],
-    1904: [1, 9, 7, 3, 6],
-    1905: [1, 9, 7, 12, 3, 6],
-    1906: [1, 9, 7, 12, 6],
-    1907: [1, 9, 7, 12, 6, 13],
+    1904: {
+      level1: [1, 9, 7, 3, 6],
+      level2: ['9r', '11r', '1r', '6r']
+    },
+    1905: {
+      level1: [1, 9, 7, 12, 3, 6],
+      level2: ['1r', '9r', '6r', '7r', '12r', 18]
+    },
+    1906: {
+      level1: [1, 9, 7, 12, 6],
+      level2: ['1r', '9r', 19, '6r', 14, '7r', '12r', 20],
+    },
+    1907: {
+      level1: [1, 9, 7, 12, 6, 13],
+      level2: ['1r', 19, '6r', '13r', 21, 14, '7r', '12r', 17, 20]
+    },
     1908: [9, 12, 6, 14],
     1909: [1, 9, 15, 7, 12, 6, 13, 14, 16],
     1910: [9, 17, 1, 15, 6, 7, 14, 13, 12]
