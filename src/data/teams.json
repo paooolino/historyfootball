@@ -1,0 +1,118 @@
+
+module.exports = {
+  teams: {
+    1: {
+      name: 'Genoa CFC',
+      founded: 1893,
+      region: 'Liguria'
+    },
+    2: {
+      name: 'Internazionale Torino',
+      founded: 1891,
+      dissolved: {
+        year: 1900,
+        join_id: 3
+      },
+      region: 'Piemonte'
+    },
+    3: {
+      name: 'FC Torinese',
+      founded: 1894,
+      dissolved: 1906,
+      region: 'Piemonte'
+    },
+    4: {
+      name: 'Ginnastica Torino',
+      founded: 1897,
+      dissolved: 1906,
+      region: 'Piemonte'
+    },
+    5: {
+      name: 'Liguria FC',
+      founded: 1897,
+      dissolved: 1914,
+      region: 'Liguria'
+    },
+    6: {
+      name: 'Juventus FC',
+      founded: 1897,
+      region: 'Piemonte'
+    },
+    7: {
+      name: 'AC Milan',
+      founded: 1899,
+      region: 'Lombardia'
+    },
+    8: {
+      name: 'Sampierdarenese',
+      founded: 1899,
+      dissolved: 1946,
+      region: 'Liguria'
+    },
+    9: {
+      name: 'SG Andrea Doria',
+      founded: 1900,
+      dissolved: 1946,
+      region: 'Liguria'
+    }
+    10: {
+      name: 'SEF Mediolanum',
+      founded: 1898,
+      dissolved: 1904,
+      region: 'Lombardia'
+    },
+    11: {
+      name: 'Audace Torino',
+      founded: 1902,
+      dissolved: 1905,
+      region: 'Piemonte'
+    },
+    12: {
+      name: 'US Milanese',
+      founded: 1902,
+      dissolved: 1928,
+      region: 'Lombardia'
+    },
+    13: {
+      name: 'Torino FC',
+      founded: 1906,
+      region: 'Piemonte'
+    },
+    14: {
+      name: 'FC Pro Vercelli',
+      founded: 1903,
+      region: 'Piemonte'
+    },
+    15: {
+      name: 'FC Internazionale Milano',
+      founded: 1908,
+      region: 'Lombardia'
+    },
+    16: {
+      name: 'Venezia FC',
+      founded: 1907,
+      region: 'Veneto'
+    },
+    17: {
+      name: 'Ausonia FC',
+      founded: 1905,
+      dissolved: 1912,
+      region: 'Lombardia'
+    }
+  },
+  participants: {
+    1898: [1, 2, 3, 4],
+    1899: [1, 2, 3, 4, 5],
+    1900: [1, 3, 4, 6, 7, 8],
+    1901: [1, 4, 6, 7],
+    1902: [1, 9, 7, 10, 11, 3, 4, 6],
+    1903: [1, 9, 7, 11, 3, 6],
+    1904: [1, 9, 7, 3, 6],
+    1905: [1, 9, 7, 12, 3, 6],
+    1906: [1, 9, 7, 12, 6],
+    1907: [1, 9, 7, 12, 6, 13],
+    1908: [9, 12, 6, 14],
+    1909: [1, 9, 15, 7, 12, 6, 13, 14, 16],
+    1910: [9, 17, 1, 15, 6, 7, 14, 13, 12]
+  }
+};
